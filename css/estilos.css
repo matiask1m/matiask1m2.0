@@ -1,0 +1,154 @@
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500);@import url(https://fonts.googleapis.com/css?family=Raleway:400); /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+
+/*html {
+    font-family: "Oswald",sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+*/
+
+
+#navegador{
+  /*  background-color: #000;*/
+
+}
+
+#navegador ul{
+    list-style-type: none;
+    text-align: center;
+ }
+
+ #navegador li{
+    display: inline;
+    text-align: center;
+    /*margin: 0 10px 0 0;*/
+ }
+
+ #navegador li a {
+    padding: 2px 7px 2px 7px;
+    color: #666;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+ }
+
+ #navegador li a:hover{
+    background-color: red;
+    color: #ffffff;
+ }
+
+body{
+    width: 100%;
+    background-image: linear-gradient(135deg, 
+    #00B7D4, #505488, #2F3F80,#161569,
+    #000 ,#5A4894,#A950A1, #DD7CAE);
+    background-size: 500%;
+    animation: fanimado 10s infinite; 
+    }
+    
+    @keyframes fanimado{
+        0%{
+            background-position: 0% 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0% 50%;
+        }´
+
+    }
+
+    #cabecera{
+        font-family: 'Climate Crisis', cursive;
+        text-align: center;  
+        font-size:  40px;
+        font-weight: bold;
+        color: white;
+        border: 4px solid white;
+        background: black
+    
+    }
+
+    
+
+    img{
+        width: 150px;
+        border-radius: 50%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+
+    #button{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+      }
+      
+      
+
+    #presentacion{
+
+        font-family: 'Mynerve', cursive;
+        color:white;
+        text-align: center;
+        box-shadow: #000;
+        font-size: 15px;
+    }
+
+    #nombre{
+        font-family: 'Mynerve', cursive;
+        color:white;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #tituloe{
+
+        font-family: 'Mynerve', cursive;
+        color: white;
+        text-align: left;
+        font-size: 25px;
+    
+
+    }
+    li{
+        font-family: 'Mynerve', cursive;
+        color: white;
+        text-align: left;
+        font-size: 20px;
+         
+    }
+
+    #tituloed{
+        font-family: 'Climate Crisis', cursive;
+        color: lightcyan;
+        text-align: right;
+        font-size: 25px;  
+    }
+
+    #educacion{
+
+        font-family: 'Mynerve', cursive;
+        color: white;
+        text-align: right;
+        font-size: 20px;
+    }
+
+    h3{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, cursive;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    footer{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 10px;
+
+    }

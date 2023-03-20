@@ -1,0 +1,79 @@
+body{
+        width: 100%;
+        background-image: linear-gradient(135deg, 
+        #00B7D4, #505488, #2F3F80,#161569,
+        #000 ,#5A4894,#A950A1, #DD7CAE);
+        background-size: 500%;
+        animation: fanimado 10s infinite; 
+        }
+        
+        @keyframes fanimado{
+            0%{
+                background-position: 0% 50%;
+            }
+            50%{
+                background-position: 100% 50%;
+            }
+            100%{
+                background-position: 0% 50%;
+            }
+    
+}
+
+#fotos{
+
+
+
+}
+
+#button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+#gallery_group{
+    align-self:center;
+}
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    align-self: center;
+  }
+  
+div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+ 
+#vpers{
+    
+    font-family: 'Mynerve', cursive;
+    color: white;
+    text-align: right;
+    font-size: 20px;
+}
+
+#fotos{
+    
+    font-family: 'Mynerve', cursive;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
